@@ -1,0 +1,14 @@
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\bin\Debug\ChargeService.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\bin\Debug\ChargeService.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\bin\Debug\ChargeServiceContracts.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\bin\Debug\ChargeServiceContracts.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\obj\Debug\ChargeService.csprojResolveAssemblyReference.cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\obj\Debug\ChargeService.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\ChargeService\obj\Debug\ChargeService.pdb
+D:\ChargeProject\ChargeService\bin\Debug\ChargeService.dll
+D:\ChargeProject\ChargeService\bin\Debug\ChargeService.pdb
+D:\ChargeProject\ChargeService\bin\Debug\ChargeServiceContracts.dll
+D:\ChargeProject\ChargeService\bin\Debug\ChargeServiceContracts.pdb
+D:\ChargeProject\ChargeService\obj\Debug\ChargeService.csprojResolveAssemblyReference.cache
+D:\ChargeProject\ChargeService\obj\Debug\ChargeService.dll
+D:\ChargeProject\ChargeService\obj\Debug\ChargeService.pdb

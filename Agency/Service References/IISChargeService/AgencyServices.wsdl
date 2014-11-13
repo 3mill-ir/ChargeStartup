@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.thatindigogirl.com/samples/2006/06" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.thatindigogirl.com/samples/2006/06" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.thatindigogirl.com/samples/2006/06/Imports">
+      <xsd:import schemaLocation="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd0" namespace="http://www.thatindigogirl.com/samples/2006/06" />
+      <xsd:import schemaLocation="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" />
+      <xsd:import schemaLocation="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAgencyService_IsValidAgency_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidAgency" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_IsValidAgency_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidAgencyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestCharge_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestCharge" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestCharge_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestChargeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestDailyReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestDailyReport" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestDailyReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestDailyReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestMonthlyReport_InputMessage">
+    <wsdl:part name="parameters" element="tns:RequestMonthlyReport" />
+  </wsdl:message>
+  <wsdl:message name="IAgencyService_RequestMonthlyReport_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestMonthlyReportResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAgencyService">
+    <wsdl:operation name="IsValidAgency">
+      <wsdl:input wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/IsValidAgency" message="tns:IAgencyService_IsValidAgency_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/IsValidAgencyResponse" message="tns:IAgencyService_IsValidAgency_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestCharge">
+      <wsdl:input wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestCharge" message="tns:IAgencyService_RequestCharge_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestChargeResponse" message="tns:IAgencyService_RequestCharge_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestDailyReport">
+      <wsdl:input wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestDailyReport" message="tns:IAgencyService_RequestDailyReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestDailyReportResponse" message="tns:IAgencyService_RequestDailyReport_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RequestMonthlyReport">
+      <wsdl:input wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestMonthlyReport" message="tns:IAgencyService_RequestMonthlyReport_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.thatindigogirl.com/samples/2006/06/IAgencyService/RequestMonthlyReportResponse" message="tns:IAgencyService_RequestMonthlyReport_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

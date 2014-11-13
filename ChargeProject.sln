@@ -1,0 +1,122 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency", "Agency\Agency.csproj", "{16A10129-D525-447F-B3CF-AEA47E47FB11}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6} = {13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargeServiceContracts", "ChargeServiceContracts\ChargeServiceContracts.csproj", "{46ABB556-A21B-42B6-9B0C-B3784AD6690E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargeService", "ChargeService\ChargeService.csproj", "{CD9EA5E0-67AD-4BDC-8968-A39D9E87D847}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "IISChargeProjectHost", "http://localhost/IISChargeProjectHost", "{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{cd9ea5e0-67ad-4bdc-8968-a39d9e87d847}|ChargeService.dll;{46ABB556-A21B-42B6-9B0C-B3784AD6690E}|ChargeServiceContracts.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/IISChargeProjectHost"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\IISChargeProjectHost\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/IISChargeProjectHost"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\IISChargeProjectHost\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{cd9ea5e0-67ad-4bdc-8968-a39d9e87d847}|ChargeService.dll;{46ABB556-A21B-42B6-9B0C-B3784AD6690E}|ChargeServiceContracts.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/IISChargeProjectHost"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\IISChargeProjectHost\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/IISChargeProjectHost"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\IISChargeProjectHost\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\inetpub\wwwroot\IISChargeProjectHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgencyBusinessLayer", "AgencyBusinessLayer\AgencyBusinessLayer.csproj", "{1D2364C4-EC7E-4077-8D7D-3EE2F8555258}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6} = {13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company", "Company\Company.csproj", "{76107634-E55A-4C3E-958F-6CC4E3C02E24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6} = {13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyBusinessLayer", "CompanyBussinesLayer\CompanyBusinessLayer.csproj", "{DAA96C29-6F5C-47A9-948F-13D7A337D9E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6} = {13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianMessageBoxComponent", "PersianMessageBoxComponent\PersianMessageBoxComponent.csproj", "{11299C39-331E-41CB-A68C-E2F3C243967F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCodeGenerate", "DiscountCodeGenerate\DiscountCodeGenerate.csproj", "{A7DDD2D4-0998-42BC-B9E6-D218D7A2574A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16A10129-D525-447F-B3CF-AEA47E47FB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A10129-D525-447F-B3CF-AEA47E47FB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A10129-D525-447F-B3CF-AEA47E47FB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A10129-D525-447F-B3CF-AEA47E47FB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ABB556-A21B-42B6-9B0C-B3784AD6690E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ABB556-A21B-42B6-9B0C-B3784AD6690E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ABB556-A21B-42B6-9B0C-B3784AD6690E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ABB556-A21B-42B6-9B0C-B3784AD6690E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9EA5E0-67AD-4BDC-8968-A39D9E87D847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9EA5E0-67AD-4BDC-8968-A39D9E87D847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9EA5E0-67AD-4BDC-8968-A39D9E87D847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9EA5E0-67AD-4BDC-8968-A39D9E87D847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B6B6DD-FEBF-49CC-9CBB-8E790B85DFE6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1D2364C4-EC7E-4077-8D7D-3EE2F8555258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2364C4-EC7E-4077-8D7D-3EE2F8555258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2364C4-EC7E-4077-8D7D-3EE2F8555258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2364C4-EC7E-4077-8D7D-3EE2F8555258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76107634-E55A-4C3E-958F-6CC4E3C02E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76107634-E55A-4C3E-958F-6CC4E3C02E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76107634-E55A-4C3E-958F-6CC4E3C02E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76107634-E55A-4C3E-958F-6CC4E3C02E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA96C29-6F5C-47A9-948F-13D7A337D9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA96C29-6F5C-47A9-948F-13D7A337D9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA96C29-6F5C-47A9-948F-13D7A337D9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA96C29-6F5C-47A9-948F-13D7A337D9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11299C39-331E-41CB-A68C-E2F3C243967F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11299C39-331E-41CB-A68C-E2F3C243967F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11299C39-331E-41CB-A68C-E2F3C243967F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11299C39-331E-41CB-A68C-E2F3C243967F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DDD2D4-0998-42BC-B9E6-D218D7A2574A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DDD2D4-0998-42BC-B9E6-D218D7A2574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DDD2D4-0998-42BC-B9E6-D218D7A2574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DDD2D4-0998-42BC-B9E6-D218D7A2574A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

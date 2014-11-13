@@ -1,0 +1,19 @@
+D:\ChargeProject\DiscountCodeGenerate\bin\Debug\DiscountCodeGenerate.exe
+D:\ChargeProject\DiscountCodeGenerate\bin\Debug\DiscountCodeGenerate.pdb
+D:\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.csprojResolveAssemblyReference.cache
+D:\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.exe
+D:\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.pdb
+D:\ChargeProject\DiscountCodeGenerate\obj\Debug\RdlCompile.cache
+D:\ChargeProject\DiscountCodeGenerate\obj\Debug\RdlCompile.compiled
+D:\Company Projects\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.exe
+D:\Company Projects\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.pdb
+D:\Company Self Modules\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.exe
+D:\Company Self Modules\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.pdb
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.exe
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\obj\Debug\DiscountCodeGenerate.pdb
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\DiscountCodeGenerate.exe
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\DiscountCodeGenerate.pdb
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+F:\Company Self Modules\ChargeProject\DiscountCodeGenerate\bin\Debug\Microsoft.SqlServer.Types.dll

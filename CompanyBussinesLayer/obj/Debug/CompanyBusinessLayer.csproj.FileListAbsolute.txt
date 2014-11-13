@@ -1,0 +1,26 @@
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll.config
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Resources.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Utils.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Win.dll
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll.config
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.pdb
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Resources.dll
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Utils.dll
+D:\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Win.dll
+D:\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBusinessLayer.csprojResolveAssemblyReference.cache
+D:\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.dll
+D:\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.pdb
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll.config
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.dll
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\CompanyBussinesLayer.pdb
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Resources.dll
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Utils.dll
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\bin\Debug\FarsiLibrary.Win.dll
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.dll
+F:\Company Self Modules\ChargeProject\CompanyBussinesLayer\obj\Debug\CompanyBussinesLayer.pdb

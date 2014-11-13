@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ChargePrintDS" targetNamespace="http://tempuri.org/ChargePrintDS.xsd" xmlns:mstns="http://tempuri.org/ChargePrintDS.xsd" xmlns="http://tempuri.org/ChargePrintDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ChargePrintDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ChargePrintDS" msprop:Generator_UserDSName="ChargePrintDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ChargePrintDT" msprop:Generator_TableClassName="ChargePrintDTDataTable" msprop:Generator_TableVarName="tableChargePrintDT" msprop:Generator_RowChangedName="ChargePrintDTRowChanged" msprop:Generator_TablePropName="ChargePrintDT" msprop:Generator_RowDeletingName="ChargePrintDTRowDeleting" msprop:Generator_RowChangingName="ChargePrintDTRowChanging" msprop:Generator_RowEvHandlerName="ChargePrintDTRowChangeEventHandler" msprop:Generator_RowDeletedName="ChargePrintDTRowDeleted" msprop:Generator_RowClassName="ChargePrintDTRow" msprop:Generator_UserTableName="ChargePrintDT" msprop:Generator_RowEvArgName="ChargePrintDTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TransactionNumber" msprop:Generator_ColumnVarNameInTable="columnTransactionNumber" msprop:Generator_ColumnPropNameInRow="TransactionNumber" msprop:Generator_ColumnPropNameInTable="TransactionNumberColumn" msprop:Generator_UserColumnName="TransactionNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargePassword" msprop:Generator_ColumnVarNameInTable="columnChargePassword" msprop:Generator_ColumnPropNameInRow="ChargePassword" msprop:Generator_ColumnPropNameInTable="ChargePasswordColumn" msprop:Generator_UserColumnName="ChargePassword" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeSerial" msprop:Generator_ColumnVarNameInTable="columnChargeSerial" msprop:Generator_ColumnPropNameInRow="ChargeSerial" msprop:Generator_ColumnPropNameInTable="ChargeSerialColumn" msprop:Generator_UserColumnName="ChargeSerial" type="xs:string" minOccurs="0" />
+              <xs:element name="OperatorName" msprop:Generator_ColumnVarNameInTable="columnOperatorName" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_UserColumnName="OperatorName" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

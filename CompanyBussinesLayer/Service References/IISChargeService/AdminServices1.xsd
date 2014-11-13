@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.thatindigogirl.com/samples/2006/06" elementFormDefault="qualified" targetNamespace="http://www.thatindigogirl.com/samples/2006/06" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" />
+  <xs:element name="RetriveNumberOfChargeIn_Server">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RetriveNumberOfChargeIn_ServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="RetriveNumberOfChargeIn_ServerResult" nillable="true" type="q1:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfCompanyPurchasedCharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfCompanyPurchasedChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="NumberOfCompanyPurchasedChargeResult" nillable="true" type="q2:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_AllChargesInWhole_Server">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_AllChargesInWhole_ServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="DayBase_AllChargesInWhole_ServerResult" nillable="true" type="q3:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_AllChargesInWhole_Server">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_AllChargesInWhole_ServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="TimeBase_AllChargesInWhole_ServerResult" nillable="true" type="q4:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfCompanySoldCharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfCompanySoldChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="NumberOfCompanySoldChargeResult" nillable="true" type="q5:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_CompanySoldDaily">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_CompanySoldDailyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="DayBase_CompanySoldDailyResult" nillable="true" type="q6:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_CompanySoldDaily">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_CompanySoldDailyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="TimeBase_CompanySoldDailyResult" nillable="true" type="q7:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfAgencySoldCharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="AgencyID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NumberOfAgencySoldChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="NumberOfAgencySoldChargeResult" nillable="true" type="q8:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_AgencySoldDaily">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="BeginDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="AgencyID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DayBase_AgencySoldDailyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="DayBase_AgencySoldDailyResult" nillable="true" type="q9:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_AgencySoldDaily">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="AgencyID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TimeBase_AgencySoldDailyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="TimeBase_AgencySoldDailyResult" nillable="true" type="q10:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isOperator" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsValidUserResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewAgency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storename" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="creditbalance" type="xs:int" />
+        <xs:element minOccurs="0" name="storetell" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storetype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewAgencyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddNewAgencyResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewOperator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewOperatorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddNewOperatorResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgenciesList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgenciesListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="AgenciesListResult" nillable="true" type="q11:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAgencyInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAgencyInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="GetAgencyInformationResult" nillable="true" type="q12:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditAgencyInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storename" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="creditbalance" type="xs:int" />
+        <xs:element minOccurs="0" name="storetell" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storetype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditAgencyInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditAgencyInformationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperatorsList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperatorsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="OperatorsListResult" nillable="true" type="q13:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOperatorInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOperatorInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="GetOperatorInformationResult" nillable="true" type="q14:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditOperatorInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditOperatorInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditOperatorInformationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="ct" nillable="true" type="q15:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddChargeResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrepareFor_TransferChargeFrom_Server_To_FrontStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChargeCount" type="xs:int" />
+        <xs:element minOccurs="0" name="operatorname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pricecategory" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrepareFor_TransferChargeFrom_Server_To_FrontStoreResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TransferChargeFrom_Server_To_FrontStore">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TransferChargeFrom_Server_To_FrontStoreResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="TransferChargeFrom_Server_To_FrontStoreResult" nillable="true" type="q16:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TransferChargeFrom_FrontStore_To_Server">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dt" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TransferChargeFrom_FrontStore_To_ServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TransferChargeFrom_FrontStore_To_ServerResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

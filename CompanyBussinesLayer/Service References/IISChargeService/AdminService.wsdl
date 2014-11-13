@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://www.thatindigogirl.com/samples/2006/06" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="AdminService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://www.thatindigogirl.com/samples/2006/06" location="http://localhost/IISChargeProjectHost/AdminServices.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:binding name="BasicHttpBinding_IAdminService" type="i0:IAdminService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RetriveNumberOfChargeIn_Server">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/RetriveNumberOfChargeIn_Server" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfCompanyPurchasedCharge">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/NumberOfCompanyPurchasedCharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayBase_AllChargesInWhole_Server">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/DayBase_AllChargesInWhole_Server" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimeBase_AllChargesInWhole_Server">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/TimeBase_AllChargesInWhole_Server" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfCompanySoldCharge">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/NumberOfCompanySoldCharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayBase_CompanySoldDaily">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/DayBase_CompanySoldDaily" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimeBase_CompanySoldDaily">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/TimeBase_CompanySoldDaily" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NumberOfAgencySoldCharge">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/NumberOfAgencySoldCharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DayBase_AgencySoldDaily">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/DayBase_AgencySoldDaily" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TimeBase_AgencySoldDaily">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/TimeBase_AgencySoldDaily" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidUser">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/IsValidUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewAgency">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/AddNewAgency" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddNewOperator">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/AddNewOperator" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgenciesList">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/AgenciesList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyInformation">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/GetAgencyInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditAgencyInformation">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/EditAgencyInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="OperatorsList">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/OperatorsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOperatorInformation">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/GetOperatorInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditOperatorInformation">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/EditOperatorInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCharge">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/AddCharge" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrepareFor_TransferChargeFrom_Server_To_FrontStore">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/PrepareFor_TransferChargeFrom_Server_To_FrontStore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferChargeFrom_Server_To_FrontStore">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/TransferChargeFrom_Server_To_FrontStore" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransferChargeFrom_FrontStore_To_Server">
+      <soap:operation soapAction="http://www.thatindigogirl.com/samples/2006/06/IAdminService/TransferChargeFrom_FrontStore_To_Server" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AdminService">
+    <wsdl:port name="BasicHttpBinding_IAdminService" binding="tns:BasicHttpBinding_IAdminService">
+      <soap:address location="http://localhost/IISChargeProjectHost/AdminServices.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d9d23dc8-94a4-4f65-b592-2fb5d85c8de2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/IISChargeProjectHost/AgencyServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AgencyServices.xsd" MetadataType="Schema" ID="d90f62fb-c5db-4021-b0fd-9f6e4578f146" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="AgencyServices.disco" MetadataType="Disco" ID="4bb07f32-11f3-4fe4-a611-8766a7d2e884" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?disco" />
+    <MetadataFile FileName="AgencyService.wsdl" MetadataType="Wsdl" ID="bd23d305-67d1-439b-92a2-a573dce3cc3f" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?wsdl" />
+    <MetadataFile FileName="AgencyServices1.xsd" MetadataType="Schema" ID="95de4195-60f8-4da9-bafc-5ad9bab4e901" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="AgencyServices2.xsd" MetadataType="Schema" ID="8af2121d-3568-4135-8ff7-11fa44980f9e" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="AgencyServices3.xsd" MetadataType="Schema" ID="483edb48-8df5-4f0c-906d-58c320f2c37e" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd3" />
+    <MetadataFile FileName="AgencyServices.wsdl" MetadataType="Wsdl" ID="4ec77d21-b2ff-4e8d-8b1e-c0d52d3d6e17" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AgencyServices.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.thatindigogirl.com/samples/2006/06" elementFormDefault="qualified" targetNamespace="http://www.thatindigogirl.com/samples/2006/06" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/IISChargeProjectHost/AgencyServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" />
+  <xs:element name="IsValidAgency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:int" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidAgencyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsValidAgencyResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestCharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="AgencyID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RequestChargeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestDailyReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AgencyID" type="xs:int" />
+        <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestDailyReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="RequestDailyReportResult" nillable="true" type="q1:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestMonthlyReport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AgencyID" type="xs:int" />
+        <xs:element minOccurs="0" name="year" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestMonthlyReportResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="RequestMonthlyReportResult" nillable="true" type="q2:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,69 @@
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.exe.config
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.exe
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.pdb
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.Properties.Resources.resources
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.csproj.GenerateResource.Cache
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.exe
+c:\users\pipo\documents\visual studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.exe.manifest
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.application
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.csprojResolveAssemblyReference.cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.exe.manifest
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.application
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.HomePage.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\AgencyBusinessLayer.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\AgencyBusinessLayer.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.ConfirmPage.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.ReportPage.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.LoginPage.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\PersianMessageBoxComponent.exe
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\PersianMessageBoxComponent.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.AgencyChangePassword.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldDaily.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldMonthly.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldTimely.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\RdlCompile.cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\RdlCompile.compiled
+E:\Dell Back up\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\bin\Debug\Agency.exe.config
+E:\Dell Back up\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.exe
+E:\Dell Back up\Documents\Visual Studio 2012\Projects\ChargeProject\Agency\obj\Debug\Agency.pdb
+D:\ChargeProject\Agency\bin\Debug\Agency.exe.config
+D:\ChargeProject\Agency\obj\Debug\Agency.exe
+D:\ChargeProject\Agency\obj\Debug\Agency.pdb
+D:\ChargeProject\Agency\bin\Debug\Agency.exe.manifest
+D:\ChargeProject\Agency\bin\Debug\Agency.application
+D:\ChargeProject\Agency\bin\Debug\Agency.exe
+D:\ChargeProject\Agency\bin\Debug\Agency.pdb
+D:\ChargeProject\Agency\bin\Debug\AgencyBusinessLayer.dll
+D:\ChargeProject\Agency\bin\Debug\PersianMessageBoxComponent.exe
+D:\ChargeProject\Agency\bin\Debug\AgencyBusinessLayer.pdb
+D:\ChargeProject\Agency\bin\Debug\PersianMessageBoxComponent.pdb
+D:\ChargeProject\Agency\obj\Debug\Agency.csprojResolveAssemblyReference.cache
+D:\ChargeProject\Agency\obj\Debug\Agency.ConfirmPage.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.AgencyChangePassword.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldTimely.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.HomePage.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.LoginPage.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.Properties.Resources.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldDaily.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldMonthly.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.ReportPage.resources
+D:\ChargeProject\Agency\obj\Debug\Agency.csproj.GenerateResource.Cache
+D:\ChargeProject\Agency\obj\Debug\RdlCompile.cache
+D:\ChargeProject\Agency\obj\Debug\RdlCompile.compiled
+D:\ChargeProject\Agency\obj\Debug\Agency.exe.manifest
+D:\ChargeProject\Agency\obj\Debug\Agency.application
+F:\Company Self Modules\ChargeProject\Agency\bin\Debug\Agency.exe.config
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.exe
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.pdb
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.csprojResolveAssemblyReference.cache
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.ConfirmPage.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.AgencyChangePassword.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldTimely.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.HomePage.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.LoginPage.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.Properties.Resources.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldDaily.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.ReportAgencySoldMonthly.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.ReportPage.resources
+F:\Company Self Modules\ChargeProject\Agency\obj\Debug\Agency.csproj.GenerateResource.Cache

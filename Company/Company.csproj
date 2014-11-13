@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76107634-E55A-4C3E-958F-6CC4E3C02E24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Company</RootNamespace>
+    <AssemblyName>Company</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FarsiLibrary.Resources, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgencyEditPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgencyEditPage.Designer.cs">
+      <DependentUpon>AgencyEditPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgencyRegisterPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgencyRegisterPage.Designer.cs">
+      <DependentUpon>AgencyRegisterPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgencySelectPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgencySelectPage.Designer.cs">
+      <DependentUpon>AgencySelectPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargeCapacityOnFrontStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChargeCapacityOnFrontStore.Designer.cs">
+      <DependentUpon>ChargeCapacityOnFrontStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargeAmountOnFrontStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChargeAmountOnFrontStore.Designer.cs">
+      <DependentUpon>ChargeAmountOnFrontStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargeAmountOnServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChargeAmountOnServer.Designer.cs">
+      <DependentUpon>ChargeAmountOnServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgencyShowPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgencyShowPage.Designer.cs">
+      <DependentUpon>AgencyShowPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargePricePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChargePricePage.Designer.cs">
+      <DependentUpon>ChargePricePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChargeCapacityOnServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChargeCapacityOnServer.Designer.cs">
+      <DependentUpon>ChargeCapacityOnServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterdAgencyInformation_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterdAgencyInformation_PrintPage.Designer.cs">
+      <DependentUpon>RegisterdAgencyInformation_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely_PrintPage.Designer.cs">
+      <DependentUpon>ReportAgencySoldTimely_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly_PrintPage.Designer.cs">
+      <DependentUpon>ReportAgencySoldMonthly_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily_PrintPage.Designer.cs">
+      <DependentUpon>ReportAgencySoldDaily_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldTimely_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldTimely_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanySoldTimely_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldMonthly_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldMonthly_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanySoldMonthly_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldDaily_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldDaily_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanySoldDaily_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseTimely_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseTimely_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanypurchaseTimely_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseMonthly_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseMonthly_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanypurchaseMonthly_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely.Designer.cs">
+      <DependentUpon>ReportAgencySoldTimely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySelectTimely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySelectTimely.Designer.cs">
+      <DependentUpon>ReportAgencySelectTimely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldTimely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldTimely.Designer.cs">
+      <DependentUpon>ReportCompanySoldTimely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanyPurchaseTimely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanyPurchaseTimely.Designer.cs">
+      <DependentUpon>ReportCompanyPurchaseTimely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySelectMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySelectMonthly.Designer.cs">
+      <DependentUpon>ReportAgencySelectMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySelectDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySelectDaily.Designer.cs">
+      <DependentUpon>ReportAgencySelectDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly.Designer.cs">
+      <DependentUpon>ReportAgencySoldMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily.Designer.cs">
+      <DependentUpon>ReportAgencySoldDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldMonthly.Designer.cs">
+      <DependentUpon>ReportCompanySoldMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanySoldDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanySoldDaily.Designer.cs">
+      <DependentUpon>ReportCompanySoldDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanyPurchaseMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanyPurchaseMonthly.Designer.cs">
+      <DependentUpon>ReportCompanyPurchaseMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportChargePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportChargePage.Designer.cs">
+      <DependentUpon>ImportChargePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorShowPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorShowPage.Designer.cs">
+      <DependentUpon>OperatorShowPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorEditPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorEditPage.Designer.cs">
+      <DependentUpon>OperatorEditPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorSelectPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorSelectPage.Designer.cs">
+      <DependentUpon>OperatorSelectPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorRegisterPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorRegisterPage.Designer.cs">
+      <DependentUpon>OperatorRegisterPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportCompanyPurchaseDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanyPurchaseDaily.Designer.cs">
+      <DependentUpon>ReportCompanyPurchaseDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseDaily_PrintPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompanypurchaseDaily_PrintPage.Designer.cs">
+      <DependentUpon>ReportCompanypurchaseDaily_PrintPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\IISChargeService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AgencyEditPage.resx">
+      <DependentUpon>AgencyEditPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgencyRegisterPage.resx">
+      <DependentUpon>AgencyRegisterPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgencySelectPage.resx">
+      <DependentUpon>AgencySelectPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargeCapacityOnFrontStore.resx">
+      <DependentUpon>ChargeCapacityOnFrontStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargeAmountOnFrontStore.resx">
+      <DependentUpon>ChargeAmountOnFrontStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargeAmountOnServer.resx">
+      <DependentUpon>ChargeAmountOnServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgencyShowPage.resx">
+      <DependentUpon>AgencyShowPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargePricePage.resx">
+      <DependentUpon>ChargePricePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChargeCapacityOnServer.resx">
+      <DependentUpon>ChargeCapacityOnServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterdAgencyInformation_PrintPage.resx">
+      <DependentUpon>RegisterdAgencyInformation_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterdAgencyInformation_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportAgencySoldTimely_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportAgencySoldTimely_PrintPage.resx">
+      <DependentUpon>ReportAgencySoldTimely_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldMonthly_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportAgencySoldMonthly_PrintPage.resx">
+      <DependentUpon>ReportAgencySoldMonthly_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldDaily_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportAgencySoldDaily_PrintPage.resx">
+      <DependentUpon>ReportAgencySoldDaily_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldTimely_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanySoldTimely_PrintPage.resx">
+      <DependentUpon>ReportCompanySoldTimely_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldMonthly_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanySoldMonthly_PrintPage.resx">
+      <DependentUpon>ReportCompanySoldMonthly_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldDaily_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanySoldDaily_PrintPage.resx">
+      <DependentUpon>ReportCompanySoldDaily_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanypurchaseTimely_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanypurchaseTimely_PrintPage.resx">
+      <DependentUpon>ReportCompanypurchaseTimely_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanypurchaseMonthly_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanypurchaseMonthly_PrintPage.resx">
+      <DependentUpon>ReportCompanypurchaseMonthly_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldTimely.resx">
+      <DependentUpon>ReportAgencySoldTimely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySelectTimely.resx">
+      <DependentUpon>ReportAgencySelectTimely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldTimely.resx">
+      <DependentUpon>ReportCompanySoldTimely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanyPurchaseTimely.resx">
+      <DependentUpon>ReportCompanyPurchaseTimely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySelectMonthly.resx">
+      <DependentUpon>ReportAgencySelectMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySelectDaily.resx">
+      <DependentUpon>ReportAgencySelectDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldMonthly.resx">
+      <DependentUpon>ReportAgencySoldMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldDaily.resx">
+      <DependentUpon>ReportAgencySoldDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldMonthly.resx">
+      <DependentUpon>ReportCompanySoldMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanySoldDaily.resx">
+      <DependentUpon>ReportCompanySoldDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanyPurchaseMonthly.resx">
+      <DependentUpon>ReportCompanyPurchaseMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportChargePage.resx">
+      <DependentUpon>ImportChargePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorShowPage.resx">
+      <DependentUpon>OperatorShowPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorEditPage.resx">
+      <DependentUpon>OperatorEditPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorSelectPage.resx">
+      <DependentUpon>OperatorSelectPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorRegisterPage.resx">
+      <DependentUpon>OperatorRegisterPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportCompanypurchaseDaily_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ReportCompanyPurchaseDaily.resx">
+      <DependentUpon>ReportCompanyPurchaseDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompanypurchaseDaily_PrintPage.resx">
+      <DependentUpon>ReportCompanypurchaseDaily_PrintPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CompanyBussinesLayer.CompanyPurchaseDailyDataSet+CompanyPurchaseDaily_DTDataTable.datasource" />
+    <None Include="Properties\DataSources\CompanyBussinesLayer.CompanyPurchaseDailyDataSet+WholeData_DTDataTable.datasource" />
+    <None Include="Properties\DataSources\CompanyBussinesLayer.RegisterdInformationDataSet+AgencyInformationDTDataTable.datasource" />
+    <None Include="Properties\DataSources\CompanyBussinesLayer.RegisterdInformationDataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\IISChargeService\AdminService.wsdl" />
+    <None Include="Service References\IISChargeService\AdminServices.wsdl" />
+    <None Include="Service References\IISChargeService\AdminServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\AdminServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamraheaval-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irancell-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taliya-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rightel-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\IISChargeService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\AdminServices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\AdminServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\AdminServices21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginTittle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyBussinesLayer\CompanyBusinessLayer.csproj">
+      <Project>{daa96c29-6f5c-47a9-948f-13d7a337d9e9}</Project>
+      <Name>CompanyBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersianMessageBoxComponent\PersianMessageBoxComponent.csproj">
+      <Project>{11299c39-331e-41cb-a68c-e2f3c243967f}</Project>
+      <Name>PersianMessageBoxComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureSelect.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

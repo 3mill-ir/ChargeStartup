@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ffcb6d1d-33f6-4fd5-aa80-6c1f4cf17186" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/IISChargeProjectHost/AdminServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AdminServices2.xsd" MetadataType="Schema" ID="12e83ea0-6bcf-4fb5-847a-d072eec304b7" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="AdminServices.disco" MetadataType="Disco" ID="33c0ec8a-c33d-4a88-b8cb-b37ea2b05e83" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?disco" />
+    <MetadataFile FileName="AdminService.wsdl" MetadataType="Wsdl" ID="fa31bad4-fd4e-4ea3-b824-a4b1b7aa2c23" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?wsdl" />
+    <MetadataFile FileName="AdminServices.wsdl" MetadataType="Wsdl" ID="7001b136-9e02-4591-a4d7-4009633cebbe" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="AdminServices21.xsd" MetadataType="Schema" ID="2176040b-3513-4027-bed1-e29ba3795031" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd3" />
+    <MetadataFile FileName="AdminServices.xsd" MetadataType="Schema" ID="42170d23-e627-495a-b574-4b7cf99e13d6" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="AdminServices1.xsd" MetadataType="Schema" ID="1701ea34-0033-4536-b8d3-a44bd45ae6d1" SourceId="1" SourceUrl="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

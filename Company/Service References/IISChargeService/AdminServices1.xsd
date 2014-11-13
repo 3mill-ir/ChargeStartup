@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.thatindigogirl.com/samples/2006/06" elementFormDefault="qualified" targetNamespace="http://www.thatindigogirl.com/samples/2006/06" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost/IISChargeProjectHost/AdminServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" />
+  <xs:element name="IsValidUser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isOperator" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IsValidUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="IsValidUserResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewAgency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storename" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="creditbalance" type="xs:int" />
+        <xs:element minOccurs="0" name="storetell" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storetype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewAgencyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddNewAgencyResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewOperator">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddNewOperatorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddNewOperatorResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgenciesList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgenciesListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="AgenciesListResult" nillable="true" type="q1:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAgencyInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAgencyInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="GetAgencyInformationResult" nillable="true" type="q2:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditAgencyInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storename" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="creditbalance" type="xs:int" />
+        <xs:element minOccurs="0" name="storetell" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storetype" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="storeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditAgencyInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditAgencyInformationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperatorsList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OperatorsListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="OperatorsListResult" nillable="true" type="q3:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOperatorInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOperatorInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ChargeServiceContracts" minOccurs="0" name="GetOperatorInformationResult" nillable="true" type="q4:ChargeTable" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditOperatorInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="username" type="xs:long" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fathername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="birthdate" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificatecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="certificateplace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilenum" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homepostalcode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homeaddress" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="signupdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditdate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="lasteditedby" type="xs:long" />
+        <xs:element minOccurs="0" name="statues" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditOperatorInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditOperatorInformationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddCharge">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddChargeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddChargeResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

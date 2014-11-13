@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AgencyPurchaseDailyDataSet" targetNamespace="http://tempuri.org/CompanyPurchaseDailyDataSet.xsd" xmlns:mstns="http://tempuri.org/CompanyPurchaseDailyDataSet.xsd" xmlns="http://tempuri.org/CompanyPurchaseDailyDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AgencyPurchaseDailyDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AgencyPurchaseDailyDataSet" msprop:Generator_UserDSName="AgencyPurchaseDailyDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AgencyPurchaseDaily_DT" msprop:Generator_TableClassName="AgencyPurchaseDaily_DTDataTable" msprop:Generator_TableVarName="tableAgencyPurchaseDaily_DT" msprop:Generator_RowChangedName="AgencyPurchaseDaily_DTRowChanged" msprop:Generator_TablePropName="AgencyPurchaseDaily_DT" msprop:Generator_RowDeletingName="AgencyPurchaseDaily_DTRowDeleting" msprop:Generator_RowChangingName="AgencyPurchaseDaily_DTRowChanging" msprop:Generator_RowEvHandlerName="AgencyPurchaseDaily_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="AgencyPurchaseDaily_DTRowDeleted" msprop:Generator_RowClassName="AgencyPurchaseDaily_DTRow" msprop:Generator_UserTableName="AgencyPurchaseDaily_DT" msprop:Generator_RowEvArgName="AgencyPurchaseDaily_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Charge_Price_Category" msdata:Caption="نوع شارژ" msprop:Generator_ColumnVarNameInTable="columnCharge_Price_Category" msprop:Generator_ColumnPropNameInRow="Charge_Price_Category" msprop:Generator_ColumnPropNameInTable="Charge_Price_CategoryColumn" msprop:Generator_UserColumnName="Charge_Price_Category" type="xs:string" minOccurs="0" />
+              <xs:element name="HamrahAval" msdata:Caption="همراه اول" msprop:Generator_ColumnVarNameInTable="columnHamrahAval" msprop:Generator_ColumnPropNameInRow="HamrahAval" msprop:Generator_ColumnPropNameInTable="HamrahAvalColumn" msprop:Generator_UserColumnName="HamrahAval" type="xs:int" minOccurs="0" />
+              <xs:element name="Irancel" msdata:Caption="ایرانسل" msprop:Generator_ColumnVarNameInTable="columnIrancel" msprop:Generator_ColumnPropNameInRow="Irancel" msprop:Generator_ColumnPropNameInTable="IrancelColumn" msprop:Generator_UserColumnName="Irancel" type="xs:int" minOccurs="0" />
+              <xs:element name="Taliya" msdata:Caption="تالیا" msprop:Generator_ColumnVarNameInTable="columnTaliya" msprop:Generator_ColumnPropNameInRow="Taliya" msprop:Generator_ColumnPropNameInTable="TaliyaColumn" msprop:Generator_UserColumnName="Taliya" type="xs:int" minOccurs="0" />
+              <xs:element name="Rightel" msdata:Caption="رایتل" msprop:Generator_ColumnVarNameInTable="columnRightel" msprop:Generator_ColumnPropNameInRow="Rightel" msprop:Generator_ColumnPropNameInTable="RightelColumn" msprop:Generator_UserColumnName="Rightel" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hamrah_1000_DT" msprop:Generator_TableClassName="Hamrah_1000_DTDataTable" msprop:Generator_TableVarName="tableHamrah_1000_DT" msprop:Generator_RowChangedName="Hamrah_1000_DTRowChanged" msprop:Generator_TablePropName="Hamrah_1000_DT" msprop:Generator_RowDeletingName="Hamrah_1000_DTRowDeleting" msprop:Generator_RowChangingName="Hamrah_1000_DTRowChanging" msprop:Generator_RowEvHandlerName="Hamrah_1000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Hamrah_1000_DTRowDeleted" msprop:Generator_RowClassName="Hamrah_1000_DTRow" msprop:Generator_UserTableName="Hamrah_1000_DT" msprop:Generator_RowEvArgName="Hamrah_1000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hamrah_2000_DT" msprop:Generator_TableClassName="Hamrah_2000_DTDataTable" msprop:Generator_TableVarName="tableHamrah_2000_DT" msprop:Generator_RowChangedName="Hamrah_2000_DTRowChanged" msprop:Generator_TablePropName="Hamrah_2000_DT" msprop:Generator_RowDeletingName="Hamrah_2000_DTRowDeleting" msprop:Generator_RowChangingName="Hamrah_2000_DTRowChanging" msprop:Generator_RowEvHandlerName="Hamrah_2000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Hamrah_2000_DTRowDeleted" msprop:Generator_RowClassName="Hamrah_2000_DTRow" msprop:Generator_UserTableName="Hamrah_2000_DT" msprop:Generator_RowEvArgName="Hamrah_2000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hamrah_5000_DT" msprop:Generator_TableClassName="Hamrah_5000_DTDataTable" msprop:Generator_TableVarName="tableHamrah_5000_DT" msprop:Generator_RowChangedName="Hamrah_5000_DTRowChanged" msprop:Generator_TablePropName="Hamrah_5000_DT" msprop:Generator_RowDeletingName="Hamrah_5000_DTRowDeleting" msprop:Generator_RowChangingName="Hamrah_5000_DTRowChanging" msprop:Generator_RowEvHandlerName="Hamrah_5000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Hamrah_5000_DTRowDeleted" msprop:Generator_RowClassName="Hamrah_5000_DTRow" msprop:Generator_UserTableName="Hamrah_5000_DT" msprop:Generator_RowEvArgName="Hamrah_5000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Hamrah_10000_DT" msprop:Generator_TableClassName="Hamrah_10000_DTDataTable" msprop:Generator_TableVarName="tableHamrah_10000_DT" msprop:Generator_RowChangedName="Hamrah_10000_DTRowChanged" msprop:Generator_TablePropName="Hamrah_10000_DT" msprop:Generator_RowDeletingName="Hamrah_10000_DTRowDeleting" msprop:Generator_RowChangingName="Hamrah_10000_DTRowChanging" msprop:Generator_RowEvHandlerName="Hamrah_10000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Hamrah_10000_DTRowDeleted" msprop:Generator_RowClassName="Hamrah_10000_DTRow" msprop:Generator_UserTableName="Hamrah_10000_DT" msprop:Generator_RowEvArgName="Hamrah_10000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Irancel_1000_DT" msprop:Generator_TableClassName="Irancel_1000_DTDataTable" msprop:Generator_TableVarName="tableIrancel_1000_DT" msprop:Generator_RowChangedName="Irancel_1000_DTRowChanged" msprop:Generator_TablePropName="Irancel_1000_DT" msprop:Generator_RowDeletingName="Irancel_1000_DTRowDeleting" msprop:Generator_RowChangingName="Irancel_1000_DTRowChanging" msprop:Generator_RowEvHandlerName="Irancel_1000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Irancel_1000_DTRowDeleted" msprop:Generator_RowClassName="Irancel_1000_DTRow" msprop:Generator_UserTableName="Irancel_1000_DT" msprop:Generator_RowEvArgName="Irancel_1000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Irancel_2000_DT" msprop:Generator_TableClassName="Irancel_2000_DTDataTable" msprop:Generator_TableVarName="tableIrancel_2000_DT" msprop:Generator_RowChangedName="Irancel_2000_DTRowChanged" msprop:Generator_TablePropName="Irancel_2000_DT" msprop:Generator_RowDeletingName="Irancel_2000_DTRowDeleting" msprop:Generator_RowChangingName="Irancel_2000_DTRowChanging" msprop:Generator_RowEvHandlerName="Irancel_2000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Irancel_2000_DTRowDeleted" msprop:Generator_RowClassName="Irancel_2000_DTRow" msprop:Generator_UserTableName="Irancel_2000_DT" msprop:Generator_RowEvArgName="Irancel_2000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Irancel_5000_DT" msprop:Generator_TableClassName="Irancel_5000_DTDataTable" msprop:Generator_TableVarName="tableIrancel_5000_DT" msprop:Generator_RowChangedName="Irancel_5000_DTRowChanged" msprop:Generator_TablePropName="Irancel_5000_DT" msprop:Generator_RowDeletingName="Irancel_5000_DTRowDeleting" msprop:Generator_RowChangingName="Irancel_5000_DTRowChanging" msprop:Generator_RowEvHandlerName="Irancel_5000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Irancel_5000_DTRowDeleted" msprop:Generator_RowClassName="Irancel_5000_DTRow" msprop:Generator_UserTableName="Irancel_5000_DT" msprop:Generator_RowEvArgName="Irancel_5000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Irancel_10000_DT" msprop:Generator_TableClassName="Irancel_10000_DTDataTable" msprop:Generator_TableVarName="tableIrancel_10000_DT" msprop:Generator_RowChangedName="Irancel_10000_DTRowChanged" msprop:Generator_TablePropName="Irancel_10000_DT" msprop:Generator_RowDeletingName="Irancel_10000_DTRowDeleting" msprop:Generator_RowChangingName="Irancel_10000_DTRowChanging" msprop:Generator_RowEvHandlerName="Irancel_10000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Irancel_10000_DTRowDeleted" msprop:Generator_RowClassName="Irancel_10000_DTRow" msprop:Generator_UserTableName="Irancel_10000_DT" msprop:Generator_RowEvArgName="Irancel_10000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Taliya_1000_DT" msprop:Generator_TableClassName="Taliya_1000_DTDataTable" msprop:Generator_TableVarName="tableTaliya_1000_DT" msprop:Generator_RowChangedName="Taliya_1000_DTRowChanged" msprop:Generator_TablePropName="Taliya_1000_DT" msprop:Generator_RowDeletingName="Taliya_1000_DTRowDeleting" msprop:Generator_RowChangingName="Taliya_1000_DTRowChanging" msprop:Generator_RowEvHandlerName="Taliya_1000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Taliya_1000_DTRowDeleted" msprop:Generator_RowClassName="Taliya_1000_DTRow" msprop:Generator_UserTableName="Taliya_1000_DT" msprop:Generator_RowEvArgName="Taliya_1000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Taliya_5000_DT" msprop:Generator_TableClassName="Taliya_5000_DTDataTable" msprop:Generator_TableVarName="tableTaliya_5000_DT" msprop:Generator_RowChangedName="Taliya_5000_DTRowChanged" msprop:Generator_TablePropName="Taliya_5000_DT" msprop:Generator_RowDeletingName="Taliya_5000_DTRowDeleting" msprop:Generator_RowChangingName="Taliya_5000_DTRowChanging" msprop:Generator_RowEvHandlerName="Taliya_5000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Taliya_5000_DTRowDeleted" msprop:Generator_RowClassName="Taliya_5000_DTRow" msprop:Generator_UserTableName="Taliya_5000_DT" msprop:Generator_RowEvArgName="Taliya_5000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Taliya_10000_DT" msprop:Generator_TableClassName="Taliya_10000_DTDataTable" msprop:Generator_TableVarName="tableTaliya_10000_DT" msprop:Generator_RowChangedName="Taliya_10000_DTRowChanged" msprop:Generator_TablePropName="Taliya_10000_DT" msprop:Generator_RowDeletingName="Taliya_10000_DTRowDeleting" msprop:Generator_RowChangingName="Taliya_10000_DTRowChanging" msprop:Generator_RowEvHandlerName="Taliya_10000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Taliya_10000_DTRowDeleted" msprop:Generator_RowClassName="Taliya_10000_DTRow" msprop:Generator_UserTableName="Taliya_10000_DT" msprop:Generator_RowEvArgName="Taliya_10000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rightel_1000_DT" msprop:Generator_TableClassName="Rightel_1000_DTDataTable" msprop:Generator_TableVarName="tableRightel_1000_DT" msprop:Generator_RowChangedName="Rightel_1000_DTRowChanged" msprop:Generator_TablePropName="Rightel_1000_DT" msprop:Generator_RowDeletingName="Rightel_1000_DTRowDeleting" msprop:Generator_RowChangingName="Rightel_1000_DTRowChanging" msprop:Generator_RowEvHandlerName="Rightel_1000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Rightel_1000_DTRowDeleted" msprop:Generator_RowClassName="Rightel_1000_DTRow" msprop:Generator_UserTableName="Rightel_1000_DT" msprop:Generator_RowEvArgName="Rightel_1000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rightel_2000_DT" msprop:Generator_TableClassName="Rightel_2000_DTDataTable" msprop:Generator_TableVarName="tableRightel_2000_DT" msprop:Generator_RowChangedName="Rightel_2000_DTRowChanged" msprop:Generator_TablePropName="Rightel_2000_DT" msprop:Generator_RowDeletingName="Rightel_2000_DTRowDeleting" msprop:Generator_RowChangingName="Rightel_2000_DTRowChanging" msprop:Generator_RowEvHandlerName="Rightel_2000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Rightel_2000_DTRowDeleted" msprop:Generator_RowClassName="Rightel_2000_DTRow" msprop:Generator_UserTableName="Rightel_2000_DT" msprop:Generator_RowEvArgName="Rightel_2000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rightel_5000_DT" msprop:Generator_TableClassName="Rightel_5000_DTDataTable" msprop:Generator_TableVarName="tableRightel_5000_DT" msprop:Generator_RowChangedName="Rightel_5000_DTRowChanged" msprop:Generator_TablePropName="Rightel_5000_DT" msprop:Generator_RowDeletingName="Rightel_5000_DTRowDeleting" msprop:Generator_RowChangingName="Rightel_5000_DTRowChanging" msprop:Generator_RowEvHandlerName="Rightel_5000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Rightel_5000_DTRowDeleted" msprop:Generator_RowClassName="Rightel_5000_DTRow" msprop:Generator_UserTableName="Rightel_5000_DT" msprop:Generator_RowEvArgName="Rightel_5000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rightel_10000_DT" msprop:Generator_TableClassName="Rightel_10000_DTDataTable" msprop:Generator_TableVarName="tableRightel_10000_DT" msprop:Generator_RowChangedName="Rightel_10000_DTRowChanged" msprop:Generator_TablePropName="Rightel_10000_DT" msprop:Generator_RowDeletingName="Rightel_10000_DTRowDeleting" msprop:Generator_RowChangingName="Rightel_10000_DTRowChanging" msprop:Generator_RowEvHandlerName="Rightel_10000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Rightel_10000_DTRowDeleted" msprop:Generator_RowClassName="Rightel_10000_DTRow" msprop:Generator_UserTableName="Rightel_10000_DT" msprop:Generator_RowEvArgName="Rightel_10000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Taliya_2000_DT" msprop:Generator_TableClassName="Taliya_2000_DTDataTable" msprop:Generator_TableVarName="tableTaliya_2000_DT" msprop:Generator_RowChangedName="Taliya_2000_DTRowChanged" msprop:Generator_TablePropName="Taliya_2000_DT" msprop:Generator_RowDeletingName="Taliya_2000_DTRowDeleting" msprop:Generator_RowChangingName="Taliya_2000_DTRowChanging" msprop:Generator_RowEvHandlerName="Taliya_2000_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="Taliya_2000_DTRowDeleted" msprop:Generator_RowClassName="Taliya_2000_DTRow" msprop:Generator_UserTableName="Taliya_2000_DT" msprop:Generator_RowEvArgName="Taliya_2000_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WholeData_DT" msprop:Generator_TableClassName="WholeData_DTDataTable" msprop:Generator_TableVarName="tableWholeData_DT" msprop:Generator_RowChangedName="WholeData_DTRowChanged" msprop:Generator_TablePropName="WholeData_DT" msprop:Generator_RowDeletingName="WholeData_DTRowDeleting" msprop:Generator_RowChangingName="WholeData_DTRowChanging" msprop:Generator_RowEvHandlerName="WholeData_DTRowChangeEventHandler" msprop:Generator_RowDeletedName="WholeData_DTRowDeleted" msprop:Generator_RowClassName="WholeData_DTRow" msprop:Generator_UserTableName="WholeData_DT" msprop:Generator_RowEvArgName="WholeData_DTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateBuyed" msdata:Caption="تاریخ خرید" msprop:Generator_ColumnVarNameInTable="columnDateBuyed" msprop:Generator_ColumnPropNameInRow="DateBuyed" msprop:Generator_ColumnPropNameInTable="DateBuyedColumn" msprop:Generator_UserColumnName="DateBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="Charge_Operator" msdata:Caption="اپراتور" msprop:Generator_ColumnVarNameInTable="columnCharge_Operator" msprop:Generator_ColumnPropNameInRow="Charge_Operator" msprop:Generator_ColumnPropNameInTable="Charge_OperatorColumn" msprop:Generator_UserColumnName="Charge_Operator" type="xs:string" minOccurs="0" />
+              <xs:element name="Charge_Price_Category" msdata:Caption="نوع شارژ" msprop:Generator_ColumnVarNameInTable="columnCharge_Price_Category" msprop:Generator_ColumnPropNameInRow="Charge_Price_Category" msprop:Generator_ColumnPropNameInTable="Charge_Price_CategoryColumn" msprop:Generator_UserColumnName="Charge_Price_Category" type="xs:string" minOccurs="0" />
+              <xs:element name="PriceBuyed" msdata:Caption="قیمت هر عدد" msprop:Generator_ColumnVarNameInTable="columnPriceBuyed" msprop:Generator_ColumnPropNameInRow="PriceBuyed" msprop:Generator_ColumnPropNameInTable="PriceBuyedColumn" msprop:Generator_UserColumnName="PriceBuyed" type="xs:string" minOccurs="0" />
+              <xs:element name="ChargeCount" msdata:Caption="تعداد" msprop:Generator_ColumnVarNameInTable="columnChargeCount" msprop:Generator_ColumnPropNameInRow="ChargeCount" msprop:Generator_ColumnPropNameInTable="ChargeCountColumn" msprop:Generator_UserColumnName="ChargeCount" type="xs:string" minOccurs="0" />
+              <xs:element name="Totalprice" msdata:Caption="مجموع قیمت" msprop:Generator_ColumnVarNameInTable="columnTotalprice" msprop:Generator_ColumnPropNameInRow="Totalprice" msprop:Generator_ColumnPropNameInTable="TotalpriceColumn" msprop:Generator_UserColumnName="Totalprice" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

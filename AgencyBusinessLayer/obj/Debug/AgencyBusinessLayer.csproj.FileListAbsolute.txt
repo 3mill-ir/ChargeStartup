@@ -1,0 +1,18 @@
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll.config
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.dll
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.csprojResolveAssemblyReference.cache
+D:\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll.config
+D:\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll
+D:\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.pdb
+D:\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.csprojResolveAssemblyReference.cache
+D:\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.dll
+D:\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.pdb
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll.config
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.dll
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\bin\Debug\AgencyBusinessLayer.pdb
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.csprojResolveAssemblyReference.cache
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.dll
+F:\Company Self Modules\ChargeProject\AgencyBusinessLayer\obj\Debug\AgencyBusinessLayer.pdb

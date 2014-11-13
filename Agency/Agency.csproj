@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16A10129-D525-447F-B3CF-AEA47E47FB11}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agency</RootNamespace>
+    <AssemblyName>Agency</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\testfolder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6919A5C66A48C0D552314E17820E6DF471ACF79C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Agency_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FarsiLibrary.Resources, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChargePrint.cs" />
+    <Compile Include="ConfirmPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmPage.Designer.cs">
+      <DependentUpon>ConfirmPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgencyChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgencyChangePassword.Designer.cs">
+      <DependentUpon>AgencyChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldTimely.Designer.cs">
+      <DependentUpon>ReportAgencySoldTimely.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldDaily.Designer.cs">
+      <DependentUpon>ReportAgencySoldDaily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportAgencySoldMonthly.Designer.cs">
+      <DependentUpon>ReportAgencySoldMonthly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportPage.Designer.cs">
+      <DependentUpon>ReportPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\IISChargeService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChargePrint_PrintTemplate.rdlc" />
+    <EmbeddedResource Include="ConfirmPage.resx">
+      <DependentUpon>ConfirmPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgencyChangePassword.resx">
+      <DependentUpon>AgencyChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldTimely.resx">
+      <DependentUpon>ReportAgencySoldTimely.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldDaily.resx">
+      <DependentUpon>ReportAgencySoldDaily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportAgencySoldMonthly.resx">
+      <DependentUpon>ReportAgencySoldMonthly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPage.resx">
+      <DependentUpon>ReportPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Agency_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\AgencyBusinessLayer.AgencyPurchaseDailyDataSet+AgencyPurchaseDaily_DTDataTable.datasource" />
+    <None Include="Properties\DataSources\AgencyBusinessLayer.AgencyPurchaseDailyDataSet+WholeData_DTDataTable.datasource" />
+    <None Include="Properties\DataSources\AgencyBusinessLayer.AgencyPurchaseDailyDataSet.datasource" />
+    <None Include="Properties\DataSources\AgencyBusinessLayer.ChargePrintDS+ChargeDTDataTable.datasource" />
+    <None Include="Properties\DataSources\AgencyBusinessLayer.ChargePrintDS.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\IISChargeService\AgencyService.wsdl" />
+    <None Include="Service References\IISChargeService\AgencyServices.wsdl" />
+    <None Include="Service References\IISChargeService\AgencyServices.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\AgencyServices1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\AgencyServices2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\IISChargeService\AgencyServices3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgencyBusinessLayer\AgencyBusinessLayer.csproj">
+      <Project>{1d2364c4-ec7e-4077-8d7d-3ee2f8555258}</Project>
+      <Name>AgencyBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersianMessageBoxComponent\PersianMessageBoxComponent.csproj">
+      <Project>{11299c39-331e-41cb-a68c-e2f3c243967f}</Project>
+      <Name>PersianMessageBoxComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamraheaval-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taliya-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irancell-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rightel-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\IISChargeService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\AgencyServices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\IISChargeService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_dailyclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_dailynorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_monthlyclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_monthlynorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_yearlyclick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_yearlynorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_Green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock_Red.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login_title.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

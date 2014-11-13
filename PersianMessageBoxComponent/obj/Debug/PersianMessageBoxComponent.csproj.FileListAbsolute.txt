@@ -1,0 +1,27 @@
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe.config
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.pdb
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csprojResolveAssemblyReference.cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.PersianMessageBox.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.Properties.Resources.resources
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csproj.GenerateResource.Cache
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.exe
+C:\Users\pipo\Documents\Visual Studio 2012\Projects\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.pdb
+D:\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe.config
+D:\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe
+D:\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.pdb
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csprojResolveAssemblyReference.cache
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.PersianMessageBox.resources
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.Properties.Resources.resources
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csproj.GenerateResource.Cache
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.exe
+D:\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.pdb
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe.config
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.exe
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\bin\Debug\PersianMessageBoxComponent.pdb
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.PersianMessageBox.resources
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.Properties.Resources.resources
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csproj.GenerateResource.Cache
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.exe
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.pdb
+F:\Company Self Modules\ChargeProject\PersianMessageBoxComponent\obj\Debug\PersianMessageBoxComponent.csprojResolveAssemblyReference.cache
